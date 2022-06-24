@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/FABBottomSetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/icon_swipe_up"
+        app:backgroundTint="@color/bgColorDarkBlue"
+        app:fabSize="mini"
+        app:tint="@color/textColorWhite"
+        tools:ignore="ContentDescription"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        app:cardBackgroundColor="@color/bgColorDarkBlue"
+        app:cardCornerRadius="25dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnGeneralSetting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="?attr/selectableItemBackground"
+                android:drawablePadding="20dp"
+                android:drawableStart="@drawable/icon_general_setting"
+                android:drawableTint="@color/textColorWhite"
+                android:gravity="start|center_vertical"
+                android:paddingStart="25dp"
+                android:paddingEnd="25dp"
+                android:text="@string/pengaturan_umum"
+                android:textAllCaps="false"
+                android:textColor="@color/textColorWhite"
+                android:textSize="18sp"
+                android:textStyle="normal"/>
+
+            <Button
+                android:id="@+id/btnPrivacySetting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="?attr/selectableItemBackground"
+                android:drawablePadding="20dp"
+                android:drawableStart="@drawable/icon_privacy_setting"
+                android:drawableTint="@color/textColorWhite"
+                android:gravity="start|center_vertical"
+                android:paddingStart="25dp"
+                android:paddingEnd="25dp"
+                android:text="@string/pengaturan_privasi"
+                android:textAllCaps="false"
+                android:textColor="@color/textColorWhite"
+                android:textSize="18sp"
+                android:textStyle="normal"/>
+
+            <Button
+                android:id="@+id/btnWifiSetting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="?attr/selectableItemBackground"
+                android:drawablePadding="20dp"
+                android:drawableStart="@drawable/icon_wifi_setting"
+                android:drawableTint="@color/textColorWhite"
+                android:gravity="start|center_vertical"
+                android:paddingStart="25dp"
+                android:paddingEnd="25dp"
+                android:text="@string/pengaturan_wi_fi"
+                android:textAllCaps="false"
+                android:textColor="@color/textColorWhite"
+                android:textSize="18sp"
+                android:textStyle="normal"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/bgColorWhite"/>
+
+            <Button
+                android:id="@+id/btnRefresh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="?attr/selectableItemBackground"
+                android:drawablePadding="20dp"
+                android:drawableStart="@drawable/icon_refresh"
+                android:drawableTint="@color/textColorWhite"
+                android:gravity="start|center_vertical"
+                android:paddingStart="25dp"
+                android:paddingEnd="25dp"
+                android:text="@string/segarkan_halaman_raspberry"
+                android:textAllCaps="false"
+                android:textColor="@color/textColorWhite"
+                android:textSize="18sp"
+                android:textStyle="normal"/>
+
+            <Button
+                android:id="@+id/btnRestart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="?attr/selectableItemBackground"
+                android:drawablePadding="20dp"
+                android:drawableStart="@drawable/icon_restart"
+                android:drawableTint="@color/textColorWhite"
+                android:gravity="start|center_vertical"
+                android:paddingStart="25dp"
+                android:paddingEnd="25dp"
+                android:text="@string/mulai_ulang_raspberry"
+                android:textAllCaps="false"
+                android:textColor="@color/textColorWhite"
+                android:textSize="18sp"
+                android:textStyle="normal"/>
+
+            <Button
+                android:id="@+id/btnShutdown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="?attr/selectableItemBackground"
+                android:drawablePadding="20dp"
+                android:drawableStart="@drawable/icon_shutdown"
+                android:drawableTint="@color/textColorWhite"
+                android:gravity="start|center_vertical"
+                android:paddingStart="25dp"
+                android:paddingEnd="25dp"
+                android:text="@string/matikan_raspberry"
+                android:textAllCaps="false"
+                android:textColor="@color/textColorWhite"
+                android:textSize="18sp"
+                android:textStyle="normal"/>
+
+            <Button
+                android:id="@+id/btnLogout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="?attr/selectableItemBackground"
+                android:drawablePadding="20dp"
+                android:drawableStart="@drawable/icon_logout"
+                android:drawableTint="@color/textColorWhite"
+                android:gravity="start|center_vertical"
+                android:paddingStart="25dp"
+                android:paddingEnd="25dp"
+                android:text="@string/keluar_aplikasi"
+                android:textAllCaps="false"
+                android:textColor="@color/textColorWhite"
+                android:textSize="18sp"
+                android:textStyle="normal"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="115dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/img_logo"
+        tools:ignore="ContentDescription"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtMainHeader"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/selamat_datang"
+            android:textColor="@color/textColorWhite"
+            android:textSize="17sp"
+            android:textStyle="normal"/>
+
+        <RadioGroup
+            android:id="@+id/RGLanguage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/RBIndonesian"
+                android:layout_width="70dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:background="@drawable/bg_language_selector"
+                android:button="@android:color/transparent"
+                android:drawablePadding="5dp"
+                android:drawableStart="@drawable/icon_indonesian"
+                android:text="@string/idn"
+                android:textColor="@color/textColorWhite"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+
+            <RadioButton
+                android:id="@+id/RBEnglish"
+                android:layout_width="70dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:background="@drawable/bg_language_selector"
+                android:button="@android:color/transparent"
+                android:drawablePadding="5dp"
+                android:drawableStart="@drawable/icon_english"
+                android:text="@string/en"
+                android:textColor="@color/textColorWhite"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+</LinearLayout>

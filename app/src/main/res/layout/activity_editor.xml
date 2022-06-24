@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical"
+    tools:context=".tools.Editor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/bgColorDarkBlue"
+        android:orientation="horizontal"
+        tools:ignore="ContentDescription,UnusedAttribute">
+
+        <ImageButton
+            android:id="@+id/IBUndoEditor"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:background="?attr/selectableItemBackground"
+            android:src="@drawable/icon_editor_undo"
+            android:tooltipText="@string/membatalkan_perubahan"
+            app:tint="@color/textColorWhite"/>
+
+        <ImageButton
+            android:id="@+id/IBRedoEditor"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:background="?attr/selectableItemBackground"
+            android:src="@drawable/icon_editor_redo"
+            android:tooltipText="@string/mengulangi_perubahan"
+            app:tint="@color/textColorWhite"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/textColorWhite"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/IBBoldEditor"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:background="?attr/selectableItemBackground"
+                    android:src="@drawable/icon_editor_bold"
+                    android:tooltipText="@string/tebal"
+                    app:tint="@color/textColorWhite"/>
+
+                <ImageButton
+                    android:id="@+id/IBItalicEditor"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:background="?attr/selectableItemBackground"
+                    android:src="@drawable/icon_editor_italic"
+                    android:tooltipText="@string/miring"
+                    app:tint="@color/textColorWhite"/>
+
+                <ImageButton
+                    android:id="@+id/IBUnderlineEditor"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:background="?attr/selectableItemBackground"
+                    android:src="@drawable/icon_editor_underlined"
+                    android:tooltipText="@string/garis_bawah"
+                    app:tint="@color/textColorWhite"/>
+
+                <ImageButton
+                    android:id="@+id/IBStrikethroughEditor"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:background="?attr/selectableItemBackground"
+                    android:src="@drawable/icon_editor_strikethrough"
+                    android:tooltipText="@string/coret"
+                    app:tint="@color/textColorWhite"/>
+
+                <ImageButton
+                    android:id="@+id/IBSubscriptEditor"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:background="?attr/selectableItemBackground"
+                    android:src="@drawable/icon_editor_subscript"
+                    android:tooltipText="@string/subskrip"
+                    app:tint="@color/textColorWhite"/>
+
+                <ImageButton
+                    android:id="@+id/IBSuperscriptEditor"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:background="?attr/selectableItemBackground"
+                    android:src="@drawable/icon_editor_superscript"
+                    android:tooltipText="@string/superskrip"
+                    app:tint="@color/textColorWhite"/>
+
+                <ImageButton
+                    android:id="@+id/IBFontSizeEditor"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:background="?attr/selectableItemBackground"
+                    android:src="@drawable/icon_editor_font_size"
+                    android:tooltipText="@string/ukuran_font"
+                    app:tint="@color/textColorWhite"/>
+
+                <ImageButton
+                    android:id="@+id/IBTextColorEditor"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:background="?attr/selectableItemBackground"
+                    android:src="@drawable/icon_editor_text_color"
+                    android:tooltipText="@string/warna_text"
+                    app:tint="@color/textColorWhite"/>
+
+                <ImageButton
+                    android:id="@+id/IBBackgroundColorEditor"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:background="?attr/selectableItemBackground"
+                    android:src="@drawable/icon_editor_background_color"
+                    android:tooltipText="@string/warna_latar_belakang"
+                    app:tint="@color/textColorWhite"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@color/textColorWhite"/>
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/RBJustifyLeftEditor"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/bg_editor_selector"
+                        android:button="@android:color/transparent"
+                        android:drawableStart="@drawable/icon_editor_justify_left"
+                        android:drawableTint="@color/textColorWhite"
+                        android:padding="10dp"
+                        android:tooltipText="@string/rata_kiri"/>
+
+                    <RadioButton
+                        android:id="@+id/RBJustifyCenterEditor"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/bg_editor_selector"
+                        android:button="@android:color/transparent"
+                        android:drawableStart="@drawable/icon_editor_justify_center"
+                        android:drawableTint="@color/textColorWhite"
+                        android:padding="10dp"
+                        android:tooltipText="@string/rata_tengah"/>
+
+                    <RadioButton
+                        android:id="@+id/RBJustifyRightEditor"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/bg_editor_selector"
+                        android:button="@android:color/transparent"
+                        android:drawableStart="@drawable/icon_editor_justify_right"
+                        android:drawableTint="@color/textColorWhite"
+                        android:padding="10dp"
+                        android:tooltipText="@string/rata_kanan"/>
+
+                </RadioGroup>
+
+                <ImageButton
+                    android:id="@+id/IBListBulletsEditor"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:background="?attr/selectableItemBackground"
+                    android:src="@drawable/icon_editor_list_bulleted"
+                    android:tooltipText="@string/daftar_berpoin"
+                    app:tint="@color/textColorWhite"/>
+
+                <ImageButton
+                    android:id="@+id/IBListNumbersEditor"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:background="?attr/selectableItemBackground"
+                    android:src="@drawable/icon_editor_list_numbered"
+                    android:tooltipText="@string/daftar_bernomor"
+                    app:tint="@color/textColorWhite"/>
+
+                <ImageButton
+                    android:id="@+id/IBIndentEditor"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:background="?attr/selectableItemBackground"
+                    android:src="@drawable/icon_editor_indent"
+                    android:tooltipText="@string/indentasi_masuk"
+                    app:tint="@color/textColorWhite"/>
+
+                <ImageButton
+                    android:id="@+id/IBOutdentEditor"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:background="?attr/selectableItemBackground"
+                    android:src="@drawable/icon_editor_outdent"
+                    android:tooltipText="@string/indentasi_keluar"
+                    app:tint="@color/textColorWhite"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@color/textColorWhite"/>
+
+                <ImageButton
+                    android:id="@+id/IBHeading1Editor"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:background="?attr/selectableItemBackground"
+                    android:src="@drawable/icon_editor_heading_1"
+                    android:tooltipText="@string/heading_1"
+                    app:tint="@color/textColorWhite"/>
+
+                <ImageButton
+                    android:id="@+id/IBHeading2Editor"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:background="?attr/selectableItemBackground"
+                    android:src="@drawable/icon_editor_heading_2"
+                    android:tooltipText="@string/heading_2"
+                    app:tint="@color/textColorWhite"/>
+
+                <ImageButton
+                    android:id="@+id/IBHeading3Editor"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:background="?attr/selectableItemBackground"
+                    android:src="@drawable/icon_editor_heading_3"
+                    android:tooltipText="@string/heading_3"
+                    app:tint="@color/textColorWhite"/>
+
+                <ImageButton
+                    android:id="@+id/IBHeading4Editor"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:background="?attr/selectableItemBackground"
+                    android:src="@drawable/icon_editor_heading_4"
+                    android:tooltipText="@string/heading_4"
+                    app:tint="@color/textColorWhite"/>
+
+                <ImageButton
+                    android:id="@+id/IBHeading5Editor"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:background="?attr/selectableItemBackground"
+                    android:src="@drawable/icon_editor_heading_5"
+                    android:tooltipText="@string/heading_5"
+                    app:tint="@color/textColorWhite"/>
+
+                <ImageButton
+                    android:id="@+id/IBHeading6Editor"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:background="?attr/selectableItemBackground"
+                    android:src="@drawable/icon_editor_heading_6"
+                    android:tooltipText="@string/heading_6"
+                    app:tint="@color/textColorWhite"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@color/textColorWhite"/>
+
+                <ImageButton
+                    android:id="@+id/IBInsertImageEditor"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:background="?attr/selectableItemBackground"
+                    android:src="@drawable/icon_editor_insert_image"
+                    android:tooltipText="@string/sisipkan_gambar"
+                    app:tint="@color/textColorWhite"/>
+
+                <ImageButton
+                    android:id="@+id/IBInsertVideoEditor"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:background="?attr/selectableItemBackground"
+                    android:src="@drawable/icon_editor_insert_video"
+                    android:tooltipText="@string/sisipkan_video"
+                    app:tint="@color/textColorWhite"/>
+
+                <ImageButton
+                    android:id="@+id/IBInsertAudioEditor"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:background="?attr/selectableItemBackground"
+                    android:src="@drawable/icon_editor_insert_audio"
+                    android:tooltipText="@string/sisipkan_audio"
+                    app:tint="@color/textColorWhite"/>
+
+                <ImageButton
+                    android:id="@+id/IBInsertYoutubeEditor"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:background="?attr/selectableItemBackground"
+                    android:src="@drawable/icon_editor_insert_youtube"
+                    android:tooltipText="@string/sisipkan_youtube"
+                    app:tint="@color/textColorWhite"/>
+
+                <ImageButton
+                    android:id="@+id/IBInsertLinkEditor"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:background="?attr/selectableItemBackground"
+                    android:src="@drawable/icon_editor_insert_link"
+                    android:tooltipText="@string/sisipkan_link"
+                    app:tint="@color/textColorWhite"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@color/textColorWhite"/>
+
+                <ImageButton
+                    android:id="@+id/IBQuoteEditor"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:background="?attr/selectableItemBackground"
+                    android:src="@drawable/icon_editor_quote"
+                    android:tooltipText="@string/kutipan"
+                    app:tint="@color/textColorWhite"/>
+
+                <ImageButton
+                    android:id="@+id/IBCheckBoxEditor"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:background="?attr/selectableItemBackground"
+                    android:src="@drawable/icon_editor_check_box"
+                    android:tooltipText="@string/kotak_centang"
+                    app:tint="@color/textColorWhite"/>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LLFontSizeEditor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/bgColorDarkBlue"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <SeekBar
+            android:id="@+id/SBFontSizeEditor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:progressTint="@color/textColorWhite"
+            android:thumbTint="@color/textColorWhite"/>
+
+        <TextView
+            android:id="@+id/txtFontSizeEditor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/textColorWhite"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/LLColorEditor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:background="@color/bgColorDarkBlue"
+            android:orientation="horizontal"
+            android:visibility="gone"/>
+
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:id="@+id/LLInsertEditor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/bgColorDarkBlue"
+        android:orientation="vertical"
+        android:visibility="gone"
+        tools:ignore="Autofill">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/ETInsertWidthEditor"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:backgroundTint="@color/textColorWhite"
+                android:hint="@string/masukkan_lebar"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:textColor="@color/textColorWhite"
+                android:textColorHint="@color/textColorGray"
+                android:textCursorDrawable="@color/textColorWhite"
+                android:textSize="15sp"/>
+
+            <EditText
+                android:id="@+id/ETInsertHeightEditor"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:backgroundTint="@color/textColorWhite"
+                android:hint="@string/masukkan_tinggi"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:textColor="@color/textColorWhite"
+                android:textColorHint="@color/textColorGray"
+                android:textCursorDrawable="@color/textColorWhite"
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/ETInsertURLEditor"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:backgroundTint="@color/textColorWhite"
+                android:hint="@string/masukkan_url"
+                android:imeOptions="actionDone"
+                android:inputType="text|textUri"
+                android:textColor="@color/textColorWhite"
+                android:textColorHint="@color/textColorGray"
+                android:textCursorDrawable="@color/textColorWhite"
+                android:textSize="15sp"/>
+
+            <ImageButton
+                android:id="@+id/IBInsertOKEditor"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:background="?attr/selectableItemBackground"
+                android:src="@drawable/icon_check"
+                android:tooltipText="@string/ok"
+                app:tint="@color/textColorWhite"
+                tools:ignore="ContentDescription,UnusedAttribute"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <jp.wasabeef.richeditor.RichEditor
+            android:id="@+id/richEditor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/btnOKEditor"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:backgroundTint="@color/bgColorDarkBlue"
+            android:text="@string/ok"
+            android:textColor="@color/textColorWhite"
+            android:textSize="17sp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

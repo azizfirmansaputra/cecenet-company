@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#0175B2</color>
+    <color name="bgColorDarkBlue">#004B96</color>
+    <color name="bgColorLightBlue">#0379B7</color>
+    <color name="bgColorWhite">#FFFFFF</color>
+    <color name="bgColorGray">#EEEEEE</color>
+    <color name="bgColorBlack">#000000</color>
+    <color name="bgColorTransparentBlack">#80000000</color>
+    <color name="colorPrimary">#0379B7</color>
+    <color name="colorPrimaryDark">#004B96</color>
+    <color name="textColorDarkBlue">#045BA8</color>
+    <color name="textColorLightBlue">#014B96</color>
+    <color name="textColorWhite">#FFFFFF</color>
+    <color name="textColorGray">#9B9B9B</color>
+    <color name="textColorBlack">#000000</color>
+</resources>

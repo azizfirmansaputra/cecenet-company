@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.21302083333333333" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/bg_editor_selector.xml" value="0.11" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/bg_language_selector.xml" value="0.1" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/bg_radio_button_selector.xml" value="0.1525" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/bg_rounded_blue.xml" value="0.113" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/bg_rounded_white.xml" value="0.1585" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/custom_switch.xml" value="0.1525" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/custom_switch_thumb.xml" value="0.1235" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/custom_switch_track.xml" value="0.1235" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/ic_launcher_background.xml" value="0.21302083333333333" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_add.xml" value="0.1" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_add_text.xml" value="0.1255" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_archive.xml" value="0.1735" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_arrow_forward.xml" value="0.1" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_calendar.xml" value="0.1195" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_check.xml" value="0.177" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_close.xml" value="0.1735" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_delete.xml" value="0.1735" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_editor_audio.xml" value="0.11" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_editor_background_color.xml" value="0.11" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_editor_bold.xml" value="0.11" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_editor_check_box.xml" value="0.11" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_editor_font_size.xml" value="0.11" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_editor_heading_1.xml" value="0.11" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_editor_heading_2.xml" value="0.11" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_editor_heading_3.xml" value="0.11" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_editor_heading_4.xml" value="0.11" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_editor_heading_5.xml" value="0.11" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_editor_heading_6.xml" value="0.11" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_editor_indent.xml" value="0.11" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_editor_insert_image.xml" value="0.11" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_editor_insert_link.xml" value="0.11" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_editor_insert_youtube.xml" value="0.11" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_editor_italic.xml" value="0.11" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_editor_justify_center.xml" value="0.11" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_editor_justify_left.xml" value="0.11" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_editor_justify_right.xml" value="0.11" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_editor_list_bulleted.xml" value="0.11" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_editor_list_numbered.xml" value="0.11" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_editor_quote.xml" value="0.11" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_editor_redo.xml" value="0.11" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_editor_strikethrough.xml" value="0.11" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_editor_subscript.xml" value="0.11" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_editor_superscript.xml" value="0.11" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_editor_text_color.xml" value="0.11" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_editor_underlined.xml" value="0.11" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_editor_undo.xml" value="0.11" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_editor_video.xml" value="0.11" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_english.xml" value="0.1525" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_error.xml" value="0.177" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_general_setting.xml" value="0.1" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_indonesian.xml" value="0.1525" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_logout.xml" value="0.1" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_play.xml" value="0.177" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_privacy_setting.xml" value="0.1" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_refresh.xml" value="0.1" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_restart.xml" value="0.1" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_shutdown.xml" value="0.1" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_swipe_up.xml" value="0.1525" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_unarchive.xml" value="0.177" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_upload.xml" value="0.177" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_videos.xml" value="0.113" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_volume_off.xml" value="0.1185" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_volume_up.xml" value="0.1185" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/drawable/icon_wifi_setting.xml" value="0.1" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/layout-v26/activity_check_registration.xml" value="0.196875" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/layout/activity_alert.xml" value="0.21" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/layout/activity_cek_registrasi.xml" value="0.196875" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/layout/activity_check_registration.xml" value="0.19384615384615383" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/layout/activity_editor.xml" value="0.22" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/layout/activity_features.xml" value="0.196875" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/layout/activity_main.xml" value="0.196875" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/layout/activity_play_video.xml" value="0.196875" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/layout/activity_rich_editor.xml" value="0.196875" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/layout/activity_running_text.xml" value="0.22" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/layout/activity_splash_screen.xml" value="0.22" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/layout/activity_videos.xml" value="0.196875" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/layout/view_alert_dialog.xml" value="0.16111111111111112" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/layout/view_alert_list.xml" value="0.16944444444444445" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/layout/view_bottom_setting.xml" value="0.16944444444444445" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/layout/view_main_header.xml" value="0.196875" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/layout/view_progress_dialog.xml" value="0.25" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/layout/view_running_text_list.xml" value="0.16111111111111112" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/layout/view_video_list.xml" value="0.33" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.21302083333333333" />
+        <entry key="..\:/Others/Documents/Tugas/Tugas Project Cecenet/Cecenet Company/Android Cecenet Company/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.21302083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

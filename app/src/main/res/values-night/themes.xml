@@ -1,0 +1,33 @@
+<resources>
+
+    <style name="Theme.SplashScreen" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/img_bg_splash_screen</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="Theme.CecenetCompany" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:listDivider">@color/bgColorGray</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="colorAccent">@color/bgColorDarkBlue</item>
+    </style>
+
+    <style name="BottomSheetDialogStyle">
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.VideosPlay" parent="Theme.AppCompat">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="Theme.RichEditor" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:statusBarColor">@color/bgColorDarkBlue</item>
+        <item name="colorAccent">@color/bgColorDarkBlue</item>
+        <item name="colorPrimary">@color/bgColorDarkBlue</item>
+        <item name="colorPrimaryDark">@color/bgColorLightBlue</item>
+    </style>
+
+</resources>

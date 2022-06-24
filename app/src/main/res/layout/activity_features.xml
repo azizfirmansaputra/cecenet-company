@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_bg_main"
+    tools:context=".FeaturesActivity">
+
+    <include
+        android:id="@+id/layoutHeader"
+        layout="@layout/view_main_header"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutHeader"
+        android:layout_margin="20dp"
+        android:background="@drawable/bg_rounded_white"
+        android:padding="15dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnTemplate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:backgroundTint="@color/bgColorLightBlue"
+                    android:padding="17dp"
+                    android:text="@string/template"
+                    android:textAllCaps="false"
+                    android:textColor="@color/textColorWhite"
+                    android:textSize="18sp"/>
+
+                <Button
+                    android:id="@+id/btnIdentity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:backgroundTint="@color/bgColorDarkBlue"
+                    android:padding="17dp"
+                    android:text="@string/identitas"
+                    android:textAllCaps="false"
+                    android:textColor="@color/textColorWhite"
+                    android:textSize="18sp"/>
+
+                <Button
+                    android:id="@+id/btnVideos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:backgroundTint="@color/bgColorLightBlue"
+                    android:padding="17dp"
+                    android:text="@string/video"
+                    android:textAllCaps="false"
+                    android:textColor="@color/textColorWhite"
+                    android:textSize="18sp"/>
+
+                <Button
+                    android:id="@+id/btnRunningText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:backgroundTint="@color/bgColorDarkBlue"
+                    android:padding="17dp"
+                    android:text="@string/running_text"
+                    android:textAllCaps="false"
+                    android:textColor="@color/textColorWhite"
+                    android:textSize="18sp"/>
+
+                <Button
+                    android:id="@+id/btnAlert"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:backgroundTint="@color/bgColorLightBlue"
+                    android:padding="17dp"
+                    android:text="@string/alert"
+                    android:textAllCaps="false"
+                    android:textColor="@color/textColorWhite"
+                    android:textSize="18sp"/>
+
+                <Button
+                    android:id="@+id/btnAnnouncement"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:backgroundTint="@color/bgColorDarkBlue"
+                    android:padding="17dp"
+                    android:text="@string/pengumuman"
+                    android:textAllCaps="false"
+                    android:textColor="@color/textColorWhite"
+                    android:textSize="18sp"/>
+
+                <Button
+                    android:id="@+id/btnQueue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:backgroundTint="@color/bgColorLightBlue"
+                    android:padding="17dp"
+                    android:text="@string/antrian"
+                    android:textAllCaps="false"
+                    android:textColor="@color/textColorWhite"
+                    android:textSize="18sp"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/FABSetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/icon_swipe_up"
+        app:backgroundTint="@color/bgColorDarkBlue"
+        app:fabSize="mini"
+        app:tint="@color/textColorWhite"
+        tools:ignore="ContentDescription"/>
+
+</RelativeLayout>

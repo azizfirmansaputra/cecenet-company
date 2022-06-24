@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_bg_main"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".CheckRegistrationActivity">
+
+    <include layout="@layout/view_main_header"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="@drawable/bg_rounded_white"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="25dp"
+            android:background="@color/bgColorDarkBlue"
+            android:gravity="center_horizontal"
+            android:text="@string/ikuti_5_langkah_berikut"
+            android:textColor="@color/textColorWhite"
+            android:textSize="20sp"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    tools:ignore="ContentDescription">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/_1"
+                        android:textColor="@color/textColorLightBlue"
+                        android:textSize="17sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="5dp"
+                        android:layout_weight="1"
+                        android:justificationMode="inter_word"
+                        android:text="@string/hubungkan_perangkat_dengan_wifi_raspberry_pi"
+                        android:textColor="@color/textColorLightBlue"
+                        android:textSize="17sp"
+                        tools:ignore="UnusedAttribute"/>
+
+                    <ImageView
+                        android:id="@+id/IVLoadingStep1"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/img_loading"/>
+
+                    <ImageView
+                        android:id="@+id/IVFinishStep1"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/img_check"
+                        android:visibility="gone"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/bgColorDarkBlue"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    tools:ignore="ContentDescription">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/_2"
+                        android:textColor="@color/textColorLightBlue"
+                        android:textSize="17sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="5dp"
+                        android:layout_weight="1"
+                        android:justificationMode="inter_word"
+                        android:text="@string/mengambil_data_raspberry_pi"
+                        android:textColor="@color/textColorLightBlue"
+                        android:textSize="17sp"
+                        tools:ignore="UnusedAttribute"/>
+
+                    <ImageView
+                        android:id="@+id/IVLoadingStep2"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/img_loading"/>
+
+                    <ImageView
+                        android:id="@+id/IVFinishStep2"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/img_check"
+                        android:visibility="gone"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/bgColorDarkBlue"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    tools:ignore="ContentDescription">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/_3"
+                        android:textColor="@color/textColorLightBlue"
+                        android:textSize="17sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="5dp"
+                        android:layout_weight="1"
+                        android:justificationMode="inter_word"
+                        android:text="@string/putuskan_wifi_raspberry_pi_dan_hidupkan_data_internet"
+                        android:textColor="@color/textColorLightBlue"
+                        android:textSize="17sp"
+                        tools:ignore="UnusedAttribute"/>
+
+                    <ImageView
+                        android:id="@+id/IVLoadingStep3"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/img_loading"/>
+
+                    <ImageView
+                        android:id="@+id/IVFinishStep3"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/img_check"
+                        android:visibility="gone"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/bgColorDarkBlue"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    tools:ignore="ContentDescription">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/_4"
+                        android:textColor="@color/textColorLightBlue"
+                        android:textSize="17sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="5dp"
+                        android:layout_weight="1"
+                        android:justificationMode="inter_word"
+                        android:text="@string/memeriksa_atau_mengisi_data_pengguna"
+                        android:textColor="@color/textColorLightBlue"
+                        android:textSize="17sp"
+                        tools:ignore="UnusedAttribute"/>
+
+                    <ImageView
+                        android:id="@+id/IVLoadingStep4"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/img_loading"/>
+
+                    <ImageView
+                        android:id="@+id/IVFinishStep4"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/img_check"
+                        android:visibility="gone"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/bgColorDarkBlue"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    tools:ignore="ContentDescription">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/_5"
+                        android:textColor="@color/textColorLightBlue"
+                        android:textSize="17sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="5dp"
+                        android:layout_weight="1"
+                        android:justificationMode="inter_word"
+                        android:text="@string/hubungkan_kembali_perangkat_dengan_wifi_raspberry_pi"
+                        android:textColor="@color/textColorLightBlue"
+                        android:textSize="17sp"
+                        tools:ignore="UnusedAttribute"/>
+
+                    <ImageView
+                        android:id="@+id/IVLoadingStep5"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/img_loading"/>
+
+                    <ImageView
+                        android:id="@+id/IVFinishStep5"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/img_check"
+                        android:visibility="gone"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:justificationMode="inter_word"
+        android:text="@string/langkah_langkah_ini_hanya_dilakukan_sekali_ketika_perangkat_raspberry_pi_belum_terdaftar_atau_aplikasi_di_install_ulang"
+        android:textColor="@color/textColorLightBlue"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        tools:ignore="UnusedAttribute"/>
+
+</LinearLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cecenet Company</string>
+    <string name="selamat_datang">Selamat Datang,</string>
+    <string name="ikuti_5_langkah_berikut">IKUTI 5 LANGKAH BERIKUT</string>
+    <string name="_1" translatable="false">1.</string>
+    <string name="hubungkan_perangkat_dengan_wifi_raspberry_pi">Hubungkan Perangkat dengan Wifi Raspberry Pi.</string>
+    <string name="_2" translatable="false">2.</string>
+    <string name="mengambil_data_raspberry_pi">Mengambil Data Raspberry Pi.</string>
+    <string name="_3" translatable="false">3.</string>
+    <string name="putuskan_wifi_raspberry_pi_dan_hidupkan_data_internet">Putuskan Wifi Raspberry Pi dan Hidupkan Data Internet.</string>
+    <string name="_4" translatable="false">4.</string>
+    <string name="memeriksa_atau_mengisi_data_pengguna">Memeriksa atau Mengisi Data Pengguna.</string>
+    <string name="_5" translatable="false">5.</string>
+    <string name="hubungkan_kembali_perangkat_dengan_wifi_raspberry_pi">Hubungkan Kembali Perangkat dengan Wifi Raspberry Pi.</string>
+    <string name="langkah_langkah_ini_hanya_dilakukan_sekali_ketika_perangkat_raspberry_pi_belum_terdaftar_atau_aplikasi_di_install_ulang">Langkah-langkah ini hanya dilakukan sekali ketika perangkat Raspberry Pi belum terdaftar atau aplikasi di Install ulang.</string>
+    <string name="fitur_fitur">Fitur-fitur,</string>
+    <string name="template">Template</string>
+    <string name="identitas">Identitas</string>
+    <string name="video">Video</string>
+    <string name="running_text">Running Text</string>
+    <string name="alert">Alert</string>
+    <string name="pengumuman">Pengumuman</string>
+    <string name="antrian">Antrian</string>
+    <string name="kelola_video">KELOLA VIDEO</string>
+    <string name="pilih_video">Pilih Video</string>
+    <string name="video_aktif">Video Aktif</string>
+    <string name="video_arsip">Video Arsip</string>
+    <string name="pengaturan_video">Pengaturan Video</string>
+    <string name="hapus_video">Hapus Video</string>
+    <string name="arsipkan_video">Arsipkan Video</string>
+    <string name="buka_arsip_video">Buka Arsip Video</string>
+    <string name="bunyikan_video">Bunyikan Video</string>
+    <string name="bisukan_video">Bisukan Video</string>
+    <string name="_00_00" translatable="false">00:00</string>
+    <string name="upload_video">Upload Video</string>
+    <string name="proses_upload_sedang_berlangsung">Proses upload sedang berlangsung..</string>
+    <string name="_50" translatable="false">50%</string>
+    <string name="batal">Batal</string>
+    <string name="tidak">Tidak</string>
+    <string name="ya">Ya</string>
+    <string name="gagal_upload">Gagal Uplaod</string>
+    <string name="ok">OK</string>
+    <string name="berhasil_upload">Berhasil Upload</string>
+    <string name="video_telah_berhasil_di_upload_">Video telah berhasil di upload.</string>
+    <string name="file_video_sudah_ada_">File video sudah ada.</string>
+    <string name="error">Error</string>
+    <string name="apakah_yakin_ingin_menghapus_video_ini_">Apakah yakin ingin menghapus video ini ?</string>
+    <string name="konfirmasi_hapus">Konfirmasi Hapus</string>
+    <string name="gagal_hapus">Gagal Hapus</string>
+    <string name="gagal_update">Gagal Update</string>
+    <string name="tulis_running_text_disini">Tulis Running Text disini..</string>
+    <string name="tambah_running_text">Tambah Running Text</string>
+    <string name="idn" translatable="false">IDN</string>
+    <string name="en" translatable="false">EN</string>
+    <string name="pengaturan_umum">Pengaturan Umum</string>
+    <string name="pengaturan_privasi">Pengaturan Privasi</string>
+    <string name="pengaturan_wi_fi">Pengaturan Wi-Fi</string>
+    <string name="segarkan_halaman_raspberry">Segarkan Halaman Raspberry</string>
+    <string name="mulai_ulang_raspberry">Mulai Ulang Raspberry</string>
+    <string name="matikan_raspberry">Matikan Raspberry</string>
+    <string name="keluar_aplikasi">Keluar Aplikasi</string>
+    <string name="batal_update_running_text">Batal Update Running Text</string>
+    <string name="running_text_aktif">Running Text Aktif</string>
+    <string name="Edit_Running_Text">Edit Running Text</string>
+    <string name="hapus_running_text">Hapus Running Text</string>
+    <string name="arsipkan_running_text">Arsipkan Running Text</string>
+    <string name="running_text_arsip">Running Text Arsip</string>
+    <string name="buka_arsip_running_text">Buka Arsip Running Text</string>
+    <string name="edit_running_text">Edit Running Text</string>
+    <string name="apakah_yakin_ingin_menghapus_running_text_ini_">Apakah yakin ingin menghapus Running Text ini?</string>
+    <string name="gagal">Gagal</string>
+    <string name="kelola_alert">Kelola Alert</string>
+    <string name="setiap_hari">Setiap Hari</string>
+    <string name="tambah_alert">Tambah Alert</string>
+    <string name="label_alert">Label</string>
+    <string name="suara">Suara</string>
+    <string name="diam">Diam</string>
+    <string name="simpan_alert">Simpan Alert</string>
+    <string name="batalkan">Batalkan</string>
+    <string name="pilih_tanggal">Pilih Tanggal</string>
+    <string name="animasi">Animasi</string>
+    <string name="edit_alert">Edit Alert</string>
+    <string name="membatalkan_perubahan">Membatalkan Perubahan</string>
+    <string name="mengulangi_perubahan">Mengulangi Perubahan</string>
+    <string name="tebal">Tebal</string>
+    <string name="miring">Miring</string>
+    <string name="garis_bawah">Garis Bawah</string>
+    <string name="coret">Coret</string>
+    <string name="subskrip">Subskrip</string>
+    <string name="superskrip">Superskrip</string>
+    <string name="ukuran_font">Ukuran Font</string>
+    <string name="warna_text">Warna Text</string>
+    <string name="warna_latar_belakang">Warna Latar Belakang</string>
+    <string name="rata_kiri">Rata Kiri</string>
+    <string name="rata_tengah">Rata Tengah</string>
+    <string name="rata_kanan">Rata Kanan</string>
+    <string name="daftar_berpoin">Daftar Berpoin</string>
+    <string name="daftar_bernomor">Daftar Bernomor</string>
+    <string name="indentasi_masuk">Indentasi Masuk</string>
+    <string name="indentasi_keluar">Indentasi Keluar</string>
+    <string name="heading_1">Heading 1</string>
+    <string name="heading_6">Heading 6</string>
+    <string name="heading_5">Heading 5</string>
+    <string name="heading_4">Heading 4</string>
+    <string name="heading_3">Heading 3</string>
+    <string name="heading_2">Heading 2</string>
+    <string name="sisipkan_gambar">Sisipkan Gambar</string>
+    <string name="sisipkan_video">Sisipkan Video</string>
+    <string name="sisipkan_audio">Sisipkan Audio</string>
+    <string name="sisipkan_youtube">Sisipkan Youtube</string>
+    <string name="sisipkan_link">Sisipkan Link</string>
+    <string name="kutipan">Kutipan</string>
+    <string name="kotak_centang">Kotak Centang</string>
+    <string name="masukkan_url">Masukkan URL</string>
+    <string name="masukkan_lebar">Masukkan Lebar</string>
+    <string name="masukkan_tinggi">Masukkan Tinggi</string>
+    <string name="masukkan_label_link">Masukkan Label Link</string>
+    <string name="gambar_error">Gambar Error</string>
+</resources>

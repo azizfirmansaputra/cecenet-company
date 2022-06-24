@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_bg_main"
+    android:orientation="vertical"
+    tools:context=".features.runningtext.RunningTextActivity">
+
+    <ImageView
+        android:layout_width="125dp"
+        android:layout_height="95dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="17dp"
+        android:src="@drawable/img_logo"
+        tools:ignore="ContentDescription"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:gravity="center_horizontal"
+        android:text="@string/running_text"
+        android:textAllCaps="true"
+        android:textColor="@color/textColorWhite"
+        android:textSize="18sp"
+        android:textStyle="italic"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_rounded_white"
+            android:orientation="vertical"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:paddingTop="25dp"
+            android:paddingBottom="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <EditText
+                    android:id="@+id/ETRunningText"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:background="@color/bgColorGray"
+                    android:gravity="start|top"
+                    android:hint="@string/tulis_running_text_disini"
+                    android:inputType="textCapSentences|textMultiLine"
+                    android:padding="12dp"
+                    android:textColor="@color/textColorBlack"
+                    android:textColorHint="@color/textColorGray"
+                    android:textSize="17sp"
+                    android:textStyle="italic"
+                    tools:ignore="Autofill"/>
+
+                <ImageButton
+                    android:id="@+id/IBCancelEditRunningText"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignEnd="@id/ETRunningText"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:src="@drawable/icon_close"
+                    android:tooltipText="@string/batal_update_running_text"
+                    app:tint="@color/bgColorDarkBlue"
+                    tools:ignore="ContentDescription,UnusedAttribute"/>
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btnAddRunningText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/bgColorDarkBlue"
+                android:drawableStart="@drawable/icon_add_text"
+                android:text="@string/tambah_running_text"
+                android:textAllCaps="true"
+                android:textColor="@color/textColorWhite"
+                android:textSize="20sp"
+                android:textStyle="italic"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/bg_rounded_white"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:paddingTop="17dp"
+                android:paddingBottom="10dp">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/RVActiveRunningText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_rounded_blue"
+                android:paddingStart="7dp"
+                android:paddingEnd="7dp"
+                android:text="@string/running_text_aktif"
+                android:textColor="@color/textColorWhite"
+                android:textSize="15sp"
+                android:textStyle="italic"
+                tools:ignore="RelativeOverlap"/>
+
+            <LinearLayout
+                android:id="@+id/LLMenuActiveRunningText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/bg_rounded_blue"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <ImageButton
+                    android:id="@+id/IBDeleteActiveRunningText"
+                    android:layout_width="30dp"
+                    android:layout_height="17dp"
+                    android:layout_gravity="center"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:src="@drawable/icon_delete"
+                    android:tooltipText="@string/hapus_running_text"
+                    tools:ignore="ContentDescription,UnusedAttribute"/>
+
+                <ImageButton
+                    android:id="@+id/IBArchiveRunningText"
+                    android:layout_width="30dp"
+                    android:layout_height="17dp"
+                    android:layout_gravity="center"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:src="@drawable/icon_archive"
+                    android:tooltipText="@string/arsipkan_running_text"
+                    tools:ignore="ContentDescription,UnusedAttribute"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/bg_rounded_white"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:paddingTop="17dp"
+                android:paddingBottom="10dp">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/RVArchiveRunningText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_rounded_blue"
+                android:paddingStart="7dp"
+                android:paddingEnd="7dp"
+                android:text="@string/running_text_arsip"
+                android:textColor="@color/textColorWhite"
+                android:textSize="15sp"
+                android:textStyle="italic"
+                tools:ignore="RelativeOverlap"/>
+
+            <LinearLayout
+                android:id="@+id/LLMenuArchiveRunningText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/bg_rounded_blue"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <ImageButton
+                    android:id="@+id/IBDeleteArchiveRunningText"
+                    android:layout_width="30dp"
+                    android:layout_height="17dp"
+                    android:layout_gravity="center"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:src="@drawable/icon_delete"
+                    android:tooltipText="@string/hapus_running_text"
+                    tools:ignore="ContentDescription,UnusedAttribute"/>
+
+                <ImageButton
+                    android:id="@+id/IBActiveRunningText"
+                    android:layout_width="30dp"
+                    android:layout_height="17dp"
+                    android:layout_gravity="center"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:src="@drawable/icon_unarchive"
+                    android:tooltipText="@string/buka_arsip_running_text"
+                    tools:ignore="ContentDescription,UnusedAttribute"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
